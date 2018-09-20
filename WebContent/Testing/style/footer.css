@@ -1,0 +1,27 @@
+/* BEGIN STYLE FOR FOOTER */
+.footer {
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    text-align:center;
+    padding: 10px;
+}
+
+#copyright {
+    font-family: Avenir-Heavy;
+    font-size: 8px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+}
+
+#contactUs {
+    font-family: Avenir-Heavy;
+    font-size: 8px;
+    color: #4A90E2;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+/* END STYLE FOR FOOTER */

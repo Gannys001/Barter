@@ -1,0 +1,69 @@
+/* BEGIN STYLE FOR HEADER */
+#headerContainer {
+    background-color: white;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,0.23);
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    padding: 10px;
+    margin: auto;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.header {
+    margin: auto;
+    width: 1200px;
+}
+
+#barterLogoThumbnail {
+    height: 60px;
+    width: 49px;
+    display: inline;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+#searchForm {
+    padding: 10px;
+    display:inline;
+}
+
+#searchBar {
+    background: rgba(216,216,216,0.25);
+    border-radius: 8px; 
+    border-style: hidden;
+    width: 400px;
+    padding: 6px;
+    margin-right: 10px;
+    font-family: Avenir-Heavy;
+    font-size: 14px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+}
+
+#linkContainer {
+    display: block;
+    float:right;
+    padding: 18px;
+}
+
+.headerButtons {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    text-decoration: none;
+}
+
+#searchButton {
+    border:none;
+    display:inline;
+    vertical-align:middle;
+    background-color: white;
+}
+/* END STYLE FOR HEADER */

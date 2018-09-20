@@ -1,0 +1,61 @@
+#mainContent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Avenir;
+}
+
+/* BEGIN STYLE FOR LOG IN DISPLAY */
+#logInHeading {
+    font-family: Avenir-Heavy;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1B1464;
+    width: 130px;
+    border-bottom-style: solid;
+    border-color: #50E3C2;
+    margin: auto;
+}
+
+#logInTable {
+    margin: auto;
+}
+
+.logInLabel {
+    text-align: right;
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    color: #1B1464;
+}
+
+.labelContainer {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.logInTD {
+    width: 320px;
+    padding: 5px;
+}
+
+.logInInput {
+    width: 160px;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    padding: 3px;
+    float: right;
+    font-size: 14px;
+}
+
+#submitButton {
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    background-color: #1B1464;
+    border-radius: 8px;
+    width: 100px;
+}
+/* END STYLE FOR LOG IN DISPLAY */

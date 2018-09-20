@@ -1,0 +1,40 @@
+.detailHeader{
+width: 550px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+padding-top: 25px;
+text-align: center;
+font:  bold 45px arial;
+border-bottom: 3px solid #005AC3;
+}
+.infoDiv{
+width: 400px;
+padding-top: 20px;
+margin-left: auto;
+margin-right: auto;
+/*background-color: green;*/
+}
+.titleFont{
+width: 150px;
+/*background-color: red;*/
+color: #1B1464;
+font:  bold 20px arial;
+margin-right: 30px;
+text-align: right;
+/*background-color: purple;*/
+float: left;
+}
+.infoFont{
+width: 150px;
+/*color: grey;*/
+font:  bold 20px arial;
+/*background-color: pink;*/
+float: left;
+}
+#changeBtn{
+width: 100px;
+float: left;
+margin-top: 0px;
+background-color: grey;
+}

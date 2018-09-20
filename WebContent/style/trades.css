@@ -1,0 +1,65 @@
+.detailHeader{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	text-align: center;
+	font:  bold 45px arial;
+	border-bottom: 3px solid #005AC3;
+}
+#tradeList{
+	width: 560px;
+	height: 650px;
+	margin-left: 150px;
+	/*background-color: pink;*/
+	overflow-x: hidden;
+}
+.trade{
+	width: 540px;
+	height: 70px;
+	background-color: white;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.imgDiv{
+	width: 65px;
+	height: 65px;
+	float: left;
+	margin-right: 15px;
+	float: left;
+}
+.sellerImg{
+	width: 65px;
+}
+.tradeLink{
+	display: block;
+	position: relative;
+}
+.linkSpan{
+
+  position:absolute; 
+  width:400px;
+  height:80px;
+  top:0;
+  left: 0;
+  /*background-color: red;*/
+  z-index: 1;				 
+}
+.detailDiv{
+	width: 305px;
+	height: 80px;
+	/*background-color: blue;*/
+	float: left;
+	word-spacing: 10px;
+	font: 20px arial;
+}
+#tradeDelete{
+	float: left;
+	background-color: #b52f1e;
+	width: 80px;
+	margin-left: 50px;
+}
+div.trade:hover{
+	background-color: #4A90E2;
+}

@@ -1,0 +1,369 @@
+/*GENERAL WRAPPER CSS*/
+#mainContent {
+    margin-top:80px;
+    margin-bottom:20px;
+    width:1200px;
+    height: 650px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #F7F7F7;
+    font-family: Avenir;
+}
+
+#tradePageHeading {
+    font-family: Avenir-Heavy;
+    font-size: 42px;
+    color: #4A4A4A;
+    text-align: center;
+    margin: auto;
+    border-bottom-style: solid;
+    border-bottom-color: #4A90E2;
+    width: 400px;
+}
+
+.innerHeading {
+    font-family: Avenir-Heavy;
+    font-size: 20px;
+    color: #1B1464;
+    width: 250px;
+    text-align: center;
+}
+
+/*BEGIN LABELS FOR THE TRADES COLUMN IN LEFT*/
+#onGoingTradesContainer {
+    width: 250px;
+    height: 581px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+    overflow: scroll;
+    background-color: white;
+}
+
+#onGoingTradesTable {
+    width: 249px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableTradeContainer {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+#onGoingTradeItem {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.toLabel {
+    display: inline;
+    float: left;
+    color: dodgerblue;
+}
+
+.fromLabel {
+    display: inline;
+    float: left;
+    color: firebrick;
+}
+
+.dateLabel {
+    display: inline;
+    text-align: right;
+    float: right;
+    color: black;
+}
+
+.tradeDescription {
+    color: black;
+}
+
+.tradeItemLink {
+    text-decoration: none;
+
+}
+/*END LABELS FOR THE TRADES COLUMN IN LEFT*/
+
+/*BEGIN STYLE FOR CENTER OFFER DISPLAY*/
+#offerContainer {
+    width: 660px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#arrow {
+    height: 50px;
+    width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#offerContents {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    float: none;
+}
+
+#yourItemImg {
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+}
+
+.itemName {
+    font-family: Avenir-Heavy;
+    color: #1B1464;
+    font-size: 22px;
+}
+
+#traderItemImg {
+    height: 100px;
+    width: 100px;
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+
+#itemTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acceptRejectTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tradeButton {
+    width: 100px;
+    height: 25px;
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+}
+
+#accept {
+    background-color: #61B400;
+    display: none;
+}
+
+#reject {
+    background-color: #AF0000;
+    display: none
+}
+
+#send {
+    background-color: #1B1464;
+}
+
+#sent {
+    background-color: #4A4A4A;
+    cursor: not-allowed;
+    pointer-events: none;
+    display: none;
+}
+/*END STYLE FOR CENTER OFFER DISPLAY*/
+
+/*BEGIN STYLE FOR MESSAGES DISPLAY*/
+#messagesContainer {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 917px;
+    height: 180px;
+    background-color: white;
+    margin-right: 10px;
+    overflow: scroll;
+}
+
+#tableContainer {
+    height: 165px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#messagesTable {
+    margin: 10px;
+    overflow: scroll;
+}
+
+.messageTD {
+    padding: 0;
+    height: 10px;
+}
+
+#senderName {
+    float: right;
+}
+
+#message {
+    float: left;
+}
+
+#sendMessageContainer {
+    height: 30px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+#sendMessageInner {
+    float: right;
+}
+
+#sendMessageInput {
+    width: 780px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #979797;
+    border-width: 0.5px;
+    height: 26px;
+    padding-left: 10px;
+    margin-left: 8px;
+    font-size: 14px;
+    display: inline;
+}
+
+#sendButton {
+    width: 90px;
+    height: 26px;
+    margin-right: 10px;
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    background-color: #1B1464;
+    border-radius: 8px;
+    display: inline-block;
+}
+/*END STYLE FOR MESSAGES DISPLAY*/
+
+#rightHandContainer {
+    width: 250px;
+    float: right;
+    margin-right: 10px;
+    height: 350px;
+    display: inline;
+    background-color: white;
+}
+
+#aboutMessage {
+    display: none;
+}
+
+/*BEGIN STYLE FOR trader INFO COLUMN ON RIGHT*/
+#traderInfoTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: none;
+}
+
+#traderThumb {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.traderInfoTD {
+    padding: 5px;
+    text-align: center;
+}
+
+.traderInfo {
+    font-family: Avenir-Heavy;
+    font-size: 22px;
+    color: #1B1464;
+}
+/*END STYLE FOR trader INFO COLUMN ON RIGHT*/
+
+/*BEGIN STYLE FOR INVENTORY DISPLAY*/
+#inventoryTableContainer {
+    height: 260px;
+    padding: 12px;
+    overflow: scroll;
+    font-family: Avenir;
+}
+
+#tradeSentMessage {
+    font-size: 20px;
+    display: none;
+}
+
+/*STYLING CODE ADAPTED FROM https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio */
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #1B1464;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 8px;
+	left: 7.5px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+/*END STYLE FOR INVENTORY DISPLAY*/
+
+
+
+

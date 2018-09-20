@@ -1,0 +1,263 @@
+/*GENERAL WRAPPER CSS*/
+#mainContent {
+    margin-top:80px;
+    margin-bottom:20px;
+    width:1200px;
+    height: 650px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #F7F7F7;
+    font-family: Avenir;
+}
+
+#tradePageHeading {
+    font-family: Avenir-Heavy;
+    font-size: 42px;
+    color: #4A4A4A;
+    text-align: center;
+    margin: auto;
+    border-bottom-style: solid;
+    border-bottom-color: #4A90E2;
+    width: 400px;
+}
+
+.innerHeading {
+    font-family: Avenir-Heavy;
+    font-size: 20px;
+    color: #1B1464;
+    width: 250px;
+    text-align: center;
+}
+
+/*BEGIN LABELS FOR THE TRADES COLUMN IN LEFT*/
+#onGoingTradesContainer {
+    width: 250px;
+    height: 581px;
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
+    overflow: scroll;
+    background-color: white;
+}
+
+#onGoingTradesTable {
+    width: 249px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tableTradeContainer {
+    width: 100%;
+    height: 500px;
+    overflow: scroll;
+}
+
+#onGoingTradeItem {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.toLabel {
+    display: inline;
+    float: left;
+    color: dodgerblue;
+}
+
+.fromLabel {
+    display: inline;
+    float: left;
+    color: firebrick;
+}
+
+.dateLabel {
+    display: inline;
+    text-align: right;
+    float: right;
+    color: black;
+}
+
+.tradeDescription {
+    color: black;
+}
+
+.tradeItemLink {
+    text-decoration: none;
+
+}
+/*END LABELS FOR THE TRADES COLUMN IN LEFT*/
+
+/*BEGIN STYLE FOR CENTER OFFER DISPLAY*/
+#offerContainer {
+    width: 660px;
+    height: 350px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#arrow {
+    height: 50px;
+    width: 150px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#offerContents {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    float: none;
+}
+
+#yourItemImg {
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: block;
+    margin-left: 10px;
+}
+
+.itemName {
+    font-family: Avenir-Heavy;
+    color: #1B1464;
+    font-size: 22px;
+}
+
+#sellerItemImg {
+    height: 100px;
+    width: 100px;
+    float: right;
+    display: block;
+    margin-right: 10px;
+}
+
+#itemTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#acceptRejectTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tradeButton {
+    width: 100px;
+    height: 25px;
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+}
+/*END STYLE FOR CENTER OFFER DISPLAY*/
+
+/*BEGIN STYLE FOR MESSAGES DISPLAY*/
+#messagesContainer {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    width: 917px;
+    height: 180px;
+    background-color: white;
+    margin-right: 10px;
+    overflow: scroll;
+}
+
+#tableContainer {
+    height: 165px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#messagesTable {
+    margin: 10px;
+    overflow: scroll;
+}
+
+.messageTD {
+    padding: 0;
+    height: 10px;
+}
+
+#senderName {
+    float: right;
+}
+
+#message {
+    float: left;
+}
+
+#sendMessageContainer {
+    height: 30px;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+#sendMessageInner {
+    float: right;
+}
+
+#sendMessageInput {
+    width: 780px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #979797;
+    border-width: 0.5px;
+    height: 26px;
+    padding-left: 10px;
+    margin-left: 8px;
+    font-size: 14px;
+    display: inline;
+}
+
+#sendButton {
+    width: 90px;
+    height: 26px;
+    margin-right: 10px;
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    background-color: #1B1464;
+    border-radius: 8px;
+    display: inline-block;
+}
+/*END STYLE FOR MESSAGES DISPLAY*/
+
+/*BEGIN STYLE FOR SELLER INFO COLUMN ON RIGHT*/
+#sellerInfoContainer {
+    width: 250px;
+    float: right;
+    margin-right: 10px;
+    height: 350px;
+    overflow: scroll;
+    display: inline;
+    background-color: white;
+}
+
+#sellerInfoTable {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#sellerThumb {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.sellerInfoTD {
+    padding: 5px;
+    text-align: center;
+}
+
+.sellerInfo {
+    font-family: Avenir-Heavy;
+    font-size: 22px;
+    color: #1B1464;
+}
+/*END STYLE FOR SELLER INFO COLUMN ON RIGHT*/
+
+

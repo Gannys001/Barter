@@ -1,0 +1,122 @@
+#mainContent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BEGIN STYLE FOR FILTER BOX ON LEFT HAND SIDE */
+#filterContainer {
+    width: 140px;
+    display: block;
+    float: left;
+    background: rgba(155,155,155,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.20);
+    position: fixed;
+    margin-top: 60px;
+    height: 310px;
+    text-align: center;
+    font-family: Avenir-Heavy;
+    font-size: 12px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+
+.filter {
+    font-family: Avenir-Heavy;
+    font-size: 12px;
+    letter-spacing: 0;
+    width: 100px;
+    background: #D8D8D8;
+}
+
+#filterHeading {
+    font-weight:bold;
+    font-size: 15px;
+    color: #1B1464;
+    border-bottom-style: solid;
+    border-bottom-color: #50E3C2;
+    width: 110px;
+    margin: auto;
+    margin-top: 20px;
+}
+/* END STYLE FOR FILTER BOX ON LEFT HAND SIDE */
+
+/* BEGIN STYLE FOR RESULTS DISPLAY */
+#resultsContainer {
+    width: 1040px;
+    display: block;
+    float: right;
+}
+
+.itemResultTable {
+    background: #FBFBFB;
+    margin-top: 5px;
+    font-family: Avenir;
+    font-size: 14px;
+    color: #4A4A4A;
+}
+
+#resultThumb {
+    height: 130px;
+    width: 130px;
+}
+
+#itemLink {
+    text-decoration: none;
+}
+
+.imgContainer {
+    vertical-align: middle;
+    margin: auto;
+    padding: 4px;
+    padding-top: 9px;
+}
+
+.itemInfoContainer {
+    width: 680px;
+    padding-right: 10px;
+    padding-left: 8px;
+    padding-top: 12px;
+    vertical-align: top;
+}
+
+.itemResultLabel {
+    color: #1B1464;
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    width: 100px;
+}
+
+.zipCodeLabel {
+    color: #1B1464;
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    text-align: right;
+    width: 120px;
+    float: right;
+}
+
+.traderInfoContainer {
+    width: 200px;
+    padding-left: 10px;
+    vertical-align: top;
+    padding-top: 16px;
+    font-size: 12px;
+}
+
+#traderName {
+    color: #1B1464;
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+}
+
+#traderThumb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline;
+    border-style: none;
+    float: right;
+    margin-right: 20px;
+}
+/* END STYLE FOR RESULTS DISPLAY */

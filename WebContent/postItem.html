@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Backup 1</title>
+		<link rel="stylesheet" type="text/css" href="style/accountLeft.css"/>
+        <link rel="stylesheet" type="text/css" href="style/header.css" />
+        <link rel="stylesheet" type="text/css" href="style/footer.css"/>
+        <link rel="stylesheet" type="text/css" href="style/postItem.css"/>
+       
+		<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+		</style>
+	</head>
+	<body>
+	 <div name="headerContainer" id="headerContainer">
+            <div class="header" name="header" id="header">
+                <img src="stock%20images/barterlogo.png" name="barterLogoThumbnail" id="barterLogoThumbnail">
+                
+                <form name="searchForm" id="searchForm">
+                    <input name="searchBar" id="searchBar" type="text" placeholder="Search Barters"><button type="submit" style="border:none; display:inline;vertical-align:middle;"><i class="fas fa-search" style="font-size: 200%;"></i></button>
+                </form>
+                
+                <div id="linkContainer" name="linkContainer">
+                    <a class="headerButtons" name="button1" id="button1" href="">button1</a>
+
+                    <a class="headerButtons" name="button2" id="button2" href="">button2</a>
+
+                    <a class="headerButtons" name="button3" id="button3" href="">button3</a>
+
+                    <a class="headerButtons" name="button4" id="button4" href="">button4</a>
+                </div>
+                
+            </div>
+        </div>
+		<div id="mainContainer"> 
+			<div id="backDiv">
+				<button name="backButton" id="backButton">&lt; Back to Results</button>
+			</div>
+			
+			<div class="postlHeader">
+				Post An Item
+			</div>
+
+			<form action="PostItem" id="postForm" method="POST" enctype="multipart/form-data">
+				<div class="infoDiv">
+					<div class="titleFont">Choose Picture</div>
+					<div class="buttonDiv" id="chooseBtn">
+						<div class="fileInputDiv">
+							<div id="buttonText" class="textStyle">Open</div>
+							<input type="file" id="fileInput" name="itemImage" onchange="javascript: document.getElementById ('fileName').value = this.value"/>
+						</div>
+					</div>
+					<div><input type="text" name="fileName" readonly="readonly" id="fileName" class="inputStyle"></div>
+				</div>
+
+				<div class="infoDiv">
+					<div class="titleFont">Item Name: </div>
+					<div class="infoFont">
+						<input type="text" class="inputStyle" name="itemName">
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="infoDiv">
+					<div class="titleFont">Description: </div>
+					<div class="infoFont">
+						<textarea rows="5" cols="26" id="dsrptInput" name="description" ></textarea>
+					</div>
+				</div>
+				<div class="clear"></div>
+
+				<div class="infoDiv">
+					<div class="titleFont">Category: </div>
+					<div id="tags">
+						<label class="tagLabel"><input type="radio" name="category" value="1"><span>Food</span></label>
+						<label class="tagLabel"><input type="radio" name="category" value="2"><span>Sport</span></label>
+						<label class="tagLabel"><input type="radio" name="category" value="3"><span>Electronics</span></label>
+						<label class="tagLabel"><input type="radio" name="category" value="4"><span>Tools</span></label>
+						<label class="tagLabel"><input type="radio" name="category" value="5"><span>Toys</span></label>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="buttonDiv" id="postBtn">
+					<button type="submit" class="textStyle" id="changeBtn">+ Post This Item</button>
+				</div>
+
+			</form>
+		</div>
+	</body>
+</html>

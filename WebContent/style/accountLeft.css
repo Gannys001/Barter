@@ -1,0 +1,125 @@
+			.clear{
+				clear: both;
+			}
+			#mainContainer{
+				margin-top: 90px;
+				margin-left: auto;
+				margin-right: auto;
+				width: 1200px;
+				background-color: #F2F2F2;
+
+				height: 800px;
+			}
+			#leftContainer{
+				width: 349px;
+				height: 800px;
+				float: left;
+				border-right: 1px solid black;
+				/*background-color: yellow;*/
+			}
+			#rightContainer{
+				width: 850px;
+				height: 800px;
+				float: left;
+				background-color: #F2F2F2;
+			}
+			/*----------------------------*/
+			.headers{
+				width: 250px;
+				margin-left: auto;
+				margin-right: auto;
+				/*margin-top: 50px;*/
+				padding-top: 25px;
+				text-align: center;
+				font:  bold 23px arial;
+				border-bottom: 3px solid #005AC3;
+			}
+			.textStyle{
+				color: white;
+				font: 20px arial;
+			}
+			.buttonDiv{
+				width: 250px;
+				border-radius: 5px;
+				color: white;
+				margin-left: auto;
+				margin-right: auto;
+				background-color: #4A90E2;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				text-align: center;
+
+				margin-top: 20px;
+			}
+			.anchorBtn{
+				text-decoration: none;
+				display: block;
+			}
+			/*----------------------*/
+			#userHeader{
+				width: 350px;
+				height: 130px;
+				border-bottom: 1px solid black;
+				/*background-color: #d5dae2;*/
+			}
+			#imgDiv{
+				float: left;
+				width: 80px;
+				height: 80px;
+				margin-top: 25px;
+				margin-left: 20px;
+
+			    /*background-color: purple;*/
+			}
+			#userImg{
+				width: 80px;
+				height: 80px;
+			    border-radius: 50%;
+			}
+			#nameDiv{
+				float: left;
+				/*width: 200px;*/
+				margin-top: 50px;
+				margin-left: 20px;
+
+				font-size: 23px;
+				font-family: arial;
+				font-weight: bold;
+			}
+			/*-------------------------*/
+			#accountInfoDiv{
+				width: 350px;
+				height: 200px;
+
+				border-bottom: 1px solid black;
+				/*background-color: #808389;*/
+			}
+			/*-------------------------*/
+			#inventoryDiv{
+				width: 350px;
+				height: 150px;
+
+				border-bottom: 1px solid black;
+				/*background-color: #3e4147;*/
+
+			}
+			/*-------------------------*/
+			#tradesDiv{
+				width: 350px;
+				height: 150px;
+
+				border-bottom: 1px solid black;
+			}
+			/*-------------------------*/
+			#delete{
+				width: 350px;
+				height: 170px;
+
+				/*background-color: #4177e0;*/
+
+			}
+			#deleteBtn{
+				background-color: #b52f1e;
+
+			}
+

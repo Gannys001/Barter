@@ -1,0 +1,62 @@
+.detailHeader{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-top: 50px;*/
+	padding-top: 25px;
+	text-align: center;
+	font:  bold 45px arial;
+	border-bottom: 3px solid #005AC3;
+}
+#inventoryList{
+	width: 790px;
+	height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	/*background-color: pink;*/
+	overflow-x: hidden;
+}
+.itemDiv{
+	width: 770px;
+	height: 90px;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.editLink{
+	/*background-color: green;*/
+	margin-bottom: 7px;
+	/*text-decoration: none;*/
+}
+.editLink a{
+	font: 17px arial;
+	color: grey;
+	text-decoration: none;
+}
+.imgDiv{
+	width: 60px;
+	height: 60px;
+	background-color: blue;
+	float: left;
+}
+.itemImg{
+	width: 60px;
+}
+.nameLink{
+	font: bold 17px arial;
+	text-decoration: none;
+
+	color: #1B1464;
+}
+.detailDiv{
+	width: 680px;
+	height: 70px;
+	float: left;
+	/*background-color: red;*/
+	margin-left: 15px;
+	/*overflow: auto;*/
+}
+.description{
+	font-size: 13px;
+}

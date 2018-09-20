@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <head>
+        <title>An Item</title>
+        <link href="style/header.css" type="text/css" rel="stylesheet" />
+        <link href="style/footer.css" type="text/css" rel="stylesheet" />
+        <link href="style/itemPage.css" type="text/css" rel="stylesheet" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+        <div name="headerContainer" id="headerContainer">
+            <div class="header" name="header" id="header">
+                <a href=""><img src="stock%20images/barterlogo.png" name="barterLogoThumbnail" id="barterLogoThumbnail"></a>
+                
+                <form name="searchForm" id="searchForm">
+                    <input name="searchBar" id="searchBar" type="text" placeholder="Search Barters"><button type="submit" id="searchButton"><i class="fas fa-search" id="searchIcon" style="font-size: 200%;"></i></button>
+                </form>
+                
+                <div id="linkContainer" name="linkContainer">
+                    <a class="headerButtons" name="button1" id="button1" href="">button1</a>
+
+                    <a class="headerButtons" name="button2" id="button2" href="">button2</a>
+
+                    <a class="headerButtons" name="button3" id="button3" href="">button3</a>
+
+                    <a class="headerButtons" name="button4" id="button4" href="">button4</a>
+                    
+                    <a class="headerButtons" name="button5" id="button5" href="" style="display: none;">button5</a>
+
+                    <a class="headerButtons" name="button6" id="button6" href="" style="display: none;">button6</a>
+                </div>
+                
+            </div>
+        </div>
+        <br />
+    
+        <div name="mainContent" id="mainContent">
+        
+            <div name="backButtonContainer" id="backButtonContainer">
+                <button name="backButton" id="backButton"><a href="" style="text-decoration: none; color: white;">&lt; Back to Results</a></button>
+            </div>
+
+            <table name="singleResultContainer" id="singleResultContainer">
+                <tr>
+                    <td class="singleTd">
+                        <div name="photosContainer">
+                            <img src="stock%20images/berriesgranola.jpg" name="enlargedPhoto" id="enlargedPhoto">
+                            <!--
+                            <table><tr><td class="singleTd" style="padding-left:6px;">
+                                <button class="thumbButton" onclick=""><img src="stock%20images/antiquecamera.jpg" name="thumbnail" class="thumbnail" style="margin-left:4px;"></button>
+                                <button class="thumbButton" onclick=""><img src="stock%20images/berriesgranola.jpg" name="thumbnail" class="thumbnail"></button>
+                                <button class="thumbButton" onclick=""><img src="stock%20images/antiquecamera.jpg" name="thumbnail" class="thumbnail"></button>
+                                <button class="thumbButton" onclick=""><img src="stock%20images/berriesgranola.jpg" name="thumbnail" class="thumbnail"></button>
+                                <button class="thumbButton" onclick=""><img src="stock%20images/antiquecamera.jpg" name="thumbnail" class="thumbnail"></button>
+                            </td></tr></table>
+                            -->
+                        </div>
+                    </td>
+                    <td class="singleTd" style="padding-top: 10px; width: 660px;">
+                        <div style="text-align: right; width: 640px;"><button name="tradeButton" id="tradeButton">Trade</button><br/></div>
+                        <div style="text-align: left; width: 640px;"><span name="resultName" id="resultName">Item Name</a></div>
+                        <p name="description">Enamel pin hexagon vice, locavore banh mi asymmetrical pop-up meditation cronut vaporware meggings. Subway tile portland lumbersexual, yuccie vegan tattooed chambray master cleanse irony flannel hella bicycle rights four dollar toast. Chambray paleo organic freegan meditation swag biodiesel asymmetrical four dollar toast aesthetic. Williamsburg pour-over jean shorts, organic lumbersexual blue bottle keytar microdosing umami vegan single-origin coffee aesthetic mlkshk vape fingerstache.</p>
+                    </td>
+                    <td class="singleTd">
+                        <!-- holds the window from the GMaps API -->
+                        <div name="googleMapsContainer" id="googleMapsContainer"></div>
+                        <!-- temporary image -->
+                        <img src="stock%20images/mapstand-in.png" style="height:180px; width: 180px;">
+                        
+                        <br />
+                        <span name="zipCode" id="zipCode" style="font-weight:bold; font-size: 35px; color: #1B1464;">XXXXX</span><br />
+                        <span name="traderName" id="traderName" style="font-weight:bold; font-size: 20px; color: #1B1464;">Trader Name</span><br />
+                        <span name="rating" id="rating" style="font-weight:bold; font-size: 15px; color: #1B1464;">Rating: X.xx</span><br />
+                    </td>
+                </tr>
+            </table>
+
+            <br />
+            <div name="relatedContainer" id="relatedContainer" style="width: 1050px; margin-left:auto; margin-right:auto;">
+                <span style="font-weight:bold; font-size: 25px; color: #1B1464;">Check Out These Other Items!</span><br />
+                <table name="relatedTable" id="relatedTable">
+                    <tr>
+                        <td>
+                            <table name="relatedItem" id="relatedItem">
+                                <tr>
+                                    <td><img src="" name="relatedThumb1" id="relatedThumb1" class="relatedThumbnail"></td>
+                                    <td class="relatedDescription">
+                                        <a name="itemName1" id="itemName1" class="itemName" href="">Item Name</a>
+                                        <p name="itemDescription1" id="itemDescription1" class="itemDescription">Williamsburg pour-over jean shorts, organic lumbersexual blue bottle keytar microdosing umami vegan single-origin coffee aesthetic mlkshk vape fingerstache.</p>
+                                    </td>
+                                    <td class="traderInfo">
+                                        <span name="zipCode1" id="zipCode1" class="relatedZips">XXXXX</span><br />
+                                        <span name="traderName1" id="traderName1" class="relatedtrader">Trader Name</span><br />
+                                        <span name="traderRating1" id="traderRating1" class="relatedtrader">X.xx</span><br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table name="relatedItem" id="relatedItem">
+                                <tr>
+                                    <td><img src="" name="relatedThumb2" id="relatedThumb2" class="relatedThumbnail"></td>
+                                    <td class="relatedDescription">
+                                        <a name="itemName2" id="itemName2" class="itemName" href="">Item Name</a>
+                                        <p name="itemDescription2" id="itemDescription2" class="itemDescription">Williamsburg pour-over jean shorts, organic lumbersexual blue bottle keytar microdosing umami vegan single-origin coffee aesthetic mlkshk vape fingerstache.</p>
+                                    </td>
+                                    <td class="traderInfo">
+                                        <span name="zipCode2" id="zipCode2" class="relatedZips">XXXXX</span><br />
+                                        <span name="traderName2" id="traderName2" class="relatedtrader">Trader Name</span><br />
+                                        <span name="traderRating2" id="traderRating2" class="relatedtrader">X.xx</span><br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table name="relatedItem" id="relatedItem">
+                                <tr>
+                                    <td><img src="" name="relatedThumb3" id="relatedThumb3" class="relatedThumbnail"></td>
+                                    <td class="relatedDescription">
+                                        <a name="itemName3" id="itemName3" class="itemName" href="">Item Name</a>
+                                        <p name="itemDescription3" id="itemDescription3" class="itemDescription">Williamsburg pour-over jean shorts, organic lumbersexual blue bottle keytar microdosing umami vegan single-origin coffee aesthetic mlkshk vape fingerstache.</p>
+                                    </td>
+                                    <td class="traderInfo">
+                                        <span name="zipCode3" id="zipCode3" class="relatedZips">XXXXX</span><br />
+                                        <span name="traderName3" id="traderName3" class="relatedtrader">Trader Name</span><br />
+                                        <span name="traderRating3" id="traderRating3" class="relatedtrader">X.xx</span><br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table name="relatedItem" id="relatedItem">
+                                <tr>
+                                    <td><img src="" name="relatedThumb4" id="relatedThumb4" class="relatedThumbnail"></td>
+                                    <td class="relatedDescription">
+                                        <a name="itemName4" id="itemName4" class="itemName" href="">Item Name</a>
+                                        <p name="itemDescription4" id="itemDescription4" class="itemDescription">Williamsburg pour-over jean shorts, organic lumbersexual blue bottle keytar microdosing umami vegan single-origin coffee aesthetic mlkshk vape fingerstache.</p>
+                                    </td>
+                                    <td class="traderInfo">
+                                        <span name="zipCode4" id="zipCode4" class="relatedZips">XXXXX</span><br />
+                                        <span name="traderName4" id="traderName4" class="relatedtrader">Trader Name</span><br />
+                                        <span name="traderRating4" id="traderRating4" class="relatedtrader">X.xx</span><br />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+        </div>
+            
+        <br />
+        <div name="footerContainer" id="footerContainer">
+            <div class="footer" name="footer" id="footer">
+                <span name="copyright" id="copyright">copyright Barter 2018</span>
+                <a name="contactUs" id="contactUs" href="">Contact Us</a>
+            </div>
+        </div>
+        
+    </body>
+</html>

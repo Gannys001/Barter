@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <head>
+        <title>Sign Up for Barter!</title>
+        <link href="style/signUp.css" type="text/css" rel="stylesheet" />
+        <link href="style/header.css" type="text/css" rel="stylesheet" />
+        <link href="style/footer.css" type="text/css" rel="stylesheet" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+        
+        <div name="headerContainer" id="headerContainer">
+            <div class="header" name="header" id="header">
+                <a href=""><img src="stock%20images/barterlogo.png" name="barterLogoThumbnail" id="barterLogoThumbnail"></a>
+                
+                <form name="searchForm" id="searchForm">
+                    <input name="searchBar" id="searchBar" type="text" placeholder="Search Barters"><button type="submit" id="searchButton"><i class="fas fa-search" id="searchIcon" style="font-size: 200%;"></i></button>
+                </form>
+                
+                <div id="linkContainer" name="linkContainer">
+                    <a class="headerButtons" name="button1" id="button1" href="">button1</a>
+
+                    <a class="headerButtons" name="button2" id="button2" href="">button2</a>
+
+                    <a class="headerButtons" name="button3" id="button3" href="">button3</a>
+
+                    <a class="headerButtons" name="button4" id="button4" href="">button4</a>
+                    
+                    <a class="headerButtons" name="button5" id="button5" href="" style="display: none;">button5</a>
+
+                    <a class="headerButtons" name="button6" id="button6" href="" style="display: none;">button6</a>
+                </div>
+                
+            </div>
+        </div>
+        <br />
+        
+        <div name="mainContent" id="mainContent" style="margin-top:80px; margin-bottom:40px;">
+        
+            <img src="stock%20images/barterword.png" name="barterLogo" id="barterLogo" style="width: 250px;height: 310px;">
+            
+            <form method="POST" name="signUpForm" id="signUpForm" action="SignUp" enctype="multipart/form-data">
+                <p name="signUpHeading" id="signUpHeading">Sign Up</p><br />
+
+                <table name="signUpTable" id="signUpTable">
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">first name</label></div><input type="text" class="signUpInput" id="firstName" name="firstName"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">last name</label></div><input type="text" class="signUpInput" id="lastName" name="lastName"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">email</label></div><input type="text" class="signUpInput" id="email" name="email"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">profile picture</label></div><input type="file" name="pictureUpload" id="pictureUpload"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">location (zip)</label></div><input type="text" class="signUpInput" name="location"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">username</label></div><input type="text" class="signUpInput" name="username"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">password</label></div><input type="password" class="signUpInput" name="password"><br />
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="signUpTD">
+                            <div class="labelContainer"><label class="signUpLabel">confirm password</label></div><input type="password" class="signUpInput" name="confirmPassword"><br />
+                         </td>
+                    </tr>
+                    
+                </table>
+
+                <br />
+                <input type="submit" value="sign up" id="submitButton"><br />
+            </form>
+        
+        </div>
+            
+        <br />
+        <div name="footerContainer" id="footerContainer">
+            <div class="footer" name="footer" id="footer">
+                <span name="copyright" id="copyright">copyright Barter 2018</span>
+                <a name="contactUs" id="contactUs" href="">Contact Us</a>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,66 @@
+#mainContent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Avenir;
+}
+
+#signUpHeading {
+    font-family: Avenir-Heavy;
+    font-weight: bold;
+    font-size: 30px;
+    color: #1B1464;
+    width: 130px;
+    border-bottom-style: solid;
+    border-color: #50E3C2;
+    margin: auto;
+}
+
+/* BEGIN STYLE FOR SIGNUP FORM */
+#signUpTable {
+    margin:auto;
+}
+
+.signUpLabel {
+    text-align: right;
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    color: #1B1464;
+}
+
+.labelContainer {
+    width: 150px;
+    text-align: right;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.signUpTD {
+    width: 360px;
+}
+
+.signUpInput {
+    width: 160px;
+    border: 1px solid #979797;
+    border-radius: 8px;
+    padding: 3px;
+    float: right;
+    font-size: 14px;
+}
+
+#pictureUpload {
+    padding-top: 4px;
+    float: right;
+    width: 160px;
+}
+
+#submitButton {
+    font-family: Avenir-Heavy;
+    font-size: 16px;
+    color: white;
+    background-color: #1B1464;
+    border-radius: 8px;
+    width: 100px;
+}
+/* END STYLE FOR SIGNUP FORM */

@@ -1,0 +1,54 @@
+#mainContent {
+    text-align: center;
+    font-family: Avenir-Heavy;
+}
+
+/* BEGIN STYLE FOR CONTACT US DISPLAY */
+#contactUsHeading {
+    font-family: Avenir-Heavy;
+    font-size: 40px;
+    color: #272066;
+    letter-spacing: 0;
+    border-bottom-style: solid;
+    border-bottom-color: #50E3C2;
+    width: 230px;
+    margin: auto;
+    display: block;
+}
+
+.contactUsLab {
+    color: #272066;
+    margin-right: 10px;
+}
+
+#contactFormTable {
+    margin: auto;
+    text-align: left;
+    width: 700px;
+}
+
+.contactInput {
+    background: rgba(216,216,216,0.25);
+    border-radius: 8px; 
+    border-style: hidden;
+    width: 200px;
+    padding: 4px;
+    font-family: Avenir-Heavy;
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0;
+}
+
+.contactTd {
+    padding: 4px;
+}
+
+#submitContact {
+    background: #1B1464;
+    border-radius: 8px;
+    border-style: hidden;
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    color: white;
+}
+/* END STYLE FOR CONTACT US DISPLAY */
